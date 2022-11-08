@@ -11,6 +11,8 @@
 ## Description
 This is a text editor that runs in the browser and offline. The app is a single-page progressive web application that features a number of data persistence techniques that serve as redundancy in case one of the options is notsupported by the browser.
 
+[Deployed Application](https://warm-garden-91805.herokuapp.com/)
+
 ## Usage
 As a developer I want to create notes or code snippets with or without an internet connection, so that I can reliably retrieve them for later use.
 

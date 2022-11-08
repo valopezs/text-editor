@@ -28,7 +28,11 @@ Use the application from the command line:
 
 ## Screenshots
 
-[Screenshots]()
+[manifest.json file](/images/manifest.json%20file.jpg)
+
+[Service Worker](/images/service%20workers.jpg)
+
+[IndexedDB Storage](/images/indexedDb%20storage.jpg)
 
 ## Contributing
 Contributors should clone the repository and modify code. 

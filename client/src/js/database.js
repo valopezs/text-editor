@@ -24,6 +24,14 @@ export const putDb = async (content) => {
 
     // open the desired object store
     const store = tx.objectStore("jate");
+
+    // use .put() method to update data in the database
+    // the text editor consists of one field of information that is repeatedly retrieved and updated
+    const request = store.put({ id: 1, value: content });
+
+    // get confirmation of the request
+    const result = await request;
+    console.log("Data saved to the database!", result);
 };
 
 // TODO: Add logic for a method that gets all the content from the database
